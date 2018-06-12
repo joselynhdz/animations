@@ -1,0 +1,49 @@
+/* Reset */
+ *{
+  margin: 0; 
+  padding: 0; 
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
+}
+img{
+  border: 0;
+}
+/* Container */
+#wrapper{
+  background-image: url(assets/background.png);
+  position: relative;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  border:1px solid #000;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+.img .boton {
+position: absolute;
+left: 0px;
+z-index: 1;
+}
+.img .piece{
+  position: absolute;
+  width: 290px; 
+}
+.img .text1{
+  position: absolute;
+  width: 278px;
+}
+.img .text2{
+  position: absolute;
+  width: 217px;
+}
+.img .text3{
+  position: absolute; 
+  width:250px;
+}
+.img .text4{
+  position: absolute;
+  width: 270px;
+}
